@@ -20,29 +20,33 @@
     [Markdown指南](https://www.binarization.com/archive/2016/markdown-guide/)
 
 ### 发布运行
-1. 安装依赖包文件
+1. 更新代码
+```
+git pull
+```
+2. 安装依赖包文件
 ```
 npm install
 ```
-2. 新建文章
+3. 新建文章
 ```
 hexo new '文件名'
 ```
-3. 清除缓存（非必需）
+4. 清除缓存（非必需）
 ```
 hexo clean
 ```
-4. 生成静态文件
+5. 生成静态文件
 ```
 hexo generate 
 
 hexo g //简写
 ```
-5. 压缩js和css（非必需）
+6. 压缩js和css（非必需）
 ```
 npm run gulp
 ```
-6. 发布
+7. 发布
 ```
 hexo deploy
 
