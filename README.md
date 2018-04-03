@@ -1,4 +1,4 @@
-# blog
+# hexoblog
 
 ### 准备工作
 1. 安装visual studio code
